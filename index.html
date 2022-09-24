@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>No Loss Lottery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Lottery Game on Blockchain</h1>
+  <h2>Entry fee: 0.1 MATIC</h2>
+  <div class="imgBox">
+    <img src="./lotteryBalls.png" alt="lotteryBalls" height="150px">
+  </div>
+  <div class="bContainer">
+    <button id="enter" type="button" class="btn btn-outline-primary">Enter Lottery</button>
+    <button id="pickWinner" type="button" class="btn btn-dark">pickWinner</button>
+  </div>
+  <div class="container">
+    <hr>
+    <p>The winner address is - <span id="winnerId">To Be announced</span> </p>
+    <hr>
+    <p><strong>Game Description: </strong> This is a Simple Lottery game. Players have to enter the lottery with 0.1
+      MATIC to participate in the lottery.
+      AFter the Admin ends the lottery, one lucky winner among all players will receive all the lottery pool amount.</p>
+  </div>
+
+  <script type="text/javascript" src="./main.js"></script>
+
+</body>
+
+</html>
